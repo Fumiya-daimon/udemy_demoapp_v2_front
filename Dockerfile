@@ -6,7 +6,9 @@ ARG WORKDIR
 ENV HOME=/${WORKDIR} \
     LANG=C.UTF-8 \
     TZ=Asia/Tokyo \
-    HOST=0.0.0.0
+    HOST=0.0.0.0 \
+    API_URL=${API_URL}
+
 
 # ENV check（このRUN命令は確認のためなので無くても良い）
 
